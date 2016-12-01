@@ -1,0 +1,150 @@
+h1 {
+  color: black;
+  font-size: 200%;
+  font-family: Comic Sans MS;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.container {
+  /*background: #AAAEEE;*/
+   height: 300px;
+  text-align: center;
+} 
+
+
+.block1 {
+  background-color: grey;
+  border: 1px solid black; 
+  font-family: Comic Sans MS; 
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  height: 300px;
+  padding: 30px; 
+  vertical-align: top;
+  margin: 20px;
+}
+
+.block2 {
+  background-color: grey;
+  border: 1px solid black; 
+  font-family: Comic Sans MS; 
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  height: 300px;
+  padding: 30px; 
+  vertical-align: top;
+  margin: 20px;
+}
+
+.block3 {
+  background-color: grey;
+  border: 1px solid black; 
+  font-family: Comic Sans MS; 
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  height: 300px;
+  padding: 30px; 
+  vertical-align: top;
+  margin: 20px;
+}
+
+.name_block1 {    
+      
+    position: absolute;
+    background-color: pink; 
+	  text-align: center;   
+    width: 100px;    
+    height: 30px; 
+    margin-top: 0; 
+    margin-bottom: 0;   
+    right: 0;
+    top: 0;
+}
+
+.name_block2 {    
+      
+      position: absolute;
+      background-color: #930; 
+	    text-align: center; 
+	    color: white;  
+      width: 100px;     
+      height: 30px; 
+      margin-top: 0; 
+      margin-bottom: 0;   
+      right: 0;
+      top: 0;
+}
+
+.name_block3 {    
+      
+      position: absolute;
+      background-color: #ffe; 
+	  text-align: center;   
+      width: 100px;    
+      height: 30px; 
+      margin-top: 0; 
+      margin-bottom: 0;   
+      right: 0;
+      top: 0;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .block1 {
+    width: 23%;
+    margin: 1%
+  }
+
+  .block2 {
+    width: 23%;
+    margin: 1%
+  }
+
+  .block3 {
+    width: 23%;
+    margin: 1%
+  }
+
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .block1 {
+    width: 35%;
+    margin: 1%
+  }
+
+  .block2 {
+    width: 35%;
+    margin: 1%
+  }
+
+  .block3 {
+    width: 79%;
+    margin: 1%
+  }
+
+
+ /********** Small devices only **********/
+@media  (max-width: 767px) {
+  .block1 {
+    width: 80%;
+    margin: 1%
+  }
+
+  .block2 {
+    width: 80%;
+    margin: 1%
+  }
+
+  .block3 {
+    width: 80%;
+    margin: 1%
+  }
+}
