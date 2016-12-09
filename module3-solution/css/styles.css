@@ -1,0 +1,170 @@
+
+body {
+  font-size: 25px;
+  font-family: Comic Sans MS;
+}
+
+
+#header-nav {
+  background-color: grey;
+  font-family: Comic Sans MS;
+  border-radius: 0;
+  border: 0;
+
+}
+
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+
+.navbar-brand h1 { 
+  font-family: Comic Sans MS;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .65;
+  text-decoration: none;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+
+
+#nav-list a {
+  color: black;
+  text-align: center;
+   background: white;
+   border: 1px solid grey
+}
+
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+h1 {
+  color: black;
+  font-size: 200%;
+  font-family: Comic Sans MS;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.row-flex, .row-flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+
+
+.row-flex-wrap {
+  -webkit-flex-flow: row wrap;
+    align-content: flex-start;
+    flex:0;}
+
+ #Chiken , #Beef , #Sushi {
+  background-color: grey;
+  color: black;
+  padding: 15px;
+  margin-top: 20px;
+  }
+
+
+  #Chiken h3, #Beef h3, #Sushi h3 {
+  
+  font-size: 1.6em;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  }
+
+
+
+ #Chiken p, #Beef p, #Sushi p {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    margin: 1%;
+    padding: 50px 15px 15px 15px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+.col-lg-3 {
+    margin: 1%;
+    padding: 50px 15px 15px 15px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6 {
+    margin: 1%;
+    padding: 50px 15px 15px 15px;
+    width: calc(50% - 20px);
+  }
+
+  .col-md-6 {
+    margin: 1%;
+    padding: 50px 15px 15px 15px;
+    width: calc(50% - 20px);
+  }
+
+  .col-small-12 {
+    margin: 1%;
+    padding: 50px 15px 15px;
+    width: calc(100% - 20px);
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .col-small-12 {
+   margin: 1%;
+    padding: 50px 15px 15px 15px;
+    width: calc(100% - 20px);
+  }
+}
+
+
